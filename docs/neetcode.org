@@ -1,4 +1,5 @@
 #+title: Neetcode
+#+STARTUP: showall
 
 https://neetcode.io/
 
