@@ -10,7 +10,7 @@ std::vector<int> twoSum(std::vector<int>& nums, int target) {
         difference = target - nums[i];
 
         if(map.find(difference) != map.end()) {
-            result.push_back(map[target - nums[i]]);
+            result.push_back(map[difference]);
             result.push_back(i);
         }
 
