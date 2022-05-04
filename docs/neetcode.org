@@ -4,8 +4,8 @@ https://neetcode.io/
 
 * Blind 150
 
-** Arrays & Hashing [0/0]
-*** Easy [3/3]
+** Arrays & Hashing [1/2]
+*** [X] Easy
 **** DONE Contains Duplicate
 https://leetcode.com/problems/contains-duplicate/
 
@@ -15,8 +15,13 @@ https://leetcode.com/problems/valid-anagram/
 **** DONE Two Sums
 https://leetcode.com/problems/two-sum/
 
-*** Medium [0/0]
-** Two Pointers
+*** [ ] Medium
+** Two Pointers [0/2]
+*** [ ] Easy
+**** DONE Valid Palindrome
+https://leetcode.com/problems/valid-palindrome/
+
+*** [ ] Medium
 ** Sliding Window
 ** Stack
 ** Binary Search

@@ -10,25 +10,13 @@ int main(void) {
 
     std::vector<int> example1{1, 2, 3, 1};
     result = containsDuplicate(example1);
-    if(result) {
-        std::cout << "true\n";
-    } else {
-        std::cout << "false\n";
-    }
+    result ? std::cout << "true\n" : std::cout << "false\n";
 
     std::vector<int> example2{1, 2, 3, 4};
     result = containsDuplicate(example2);
-    if(result) {
-        std::cout << "true\n";
-    } else {
-        std::cout << "false\n";
-    }
+    result ? std::cout << "true\n" : std::cout << "false\n";
 
     std::vector<int> example3{1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
     result = containsDuplicate(example3);
-    if(result) {
-        std::cout << "true\n";
-    } else {
-        std::cout << "false\n";
-    }
+    result ? std::cout << "true\n" : std::cout << "false\n";
 }

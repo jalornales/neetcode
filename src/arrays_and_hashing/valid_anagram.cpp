@@ -15,17 +15,9 @@ int main(void) {
 
     std::string s = "anagram", t = "nagaram";
     result = isAnagram(s, t);
-    if(result) {
-        std::cout << "true\n";
-    } else {
-        std::cout << "false\n";
-    }
+    result ? std::cout << "true\n" : std::cout << "false\n";
 
     s = "rat", t = "car";
     result = isAnagram(s, t);
-    if(result) {
-        std::cout << "true\n";
-    } else {
-        std::cout << "false\n";
-    }
+    result ? std::cout << "true\n" : std::cout << "false\n";
 }

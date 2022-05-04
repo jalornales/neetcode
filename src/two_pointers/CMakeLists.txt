@@ -1,0 +1,1 @@
+add_executable(valid_palindrome valid_palindrome.cpp)
